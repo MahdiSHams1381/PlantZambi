@@ -20,5 +20,10 @@ public class main extends Application {
         menu.load() ;
         primaryStage.setScene(new Scene(menu.getRoot()));
         primaryStage.show();
+
+        FXMLLoader help = new FXMLLoader(this.getClass().getResource("view/help.fxml"));
+        help.load() ;
+        primaryStage.setScene(new Scene(help.getRoot()));
+        primaryStage.show();
     }
 }
