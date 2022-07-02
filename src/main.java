@@ -15,5 +15,10 @@ public class main extends Application {
        login.load() ;
         primaryStage.setScene(new Scene(login.getRoot()));
         primaryStage.show();
+
+        FXMLLoader menu = new FXMLLoader(this.getClass().getResource("view/menu.fxml"));
+        menu.load() ;
+        primaryStage.setScene(new Scene(menu.getRoot()));
+        primaryStage.show();
     }
 }
