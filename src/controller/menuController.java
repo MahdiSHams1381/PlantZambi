@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import model.Person;
 
 import java.io.IOException;
 import java.net.URL;
@@ -22,7 +23,6 @@ public class menuController {
     private Button gift;
     @FXML
     private Button help;
-
     public void gamee(ActionEvent e) throws IOException {
         FXMLLoader menu = new FXMLLoader(this.getClass().getResource("../view/gift.fxml"));
         menu.load() ;
