@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="438.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LastController">
+<AnchorPane prefHeight="438.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.helpContrpller">
    <children>
       <ImageView fitHeight="438.0" fitWidth="780.0" pickOnBounds="true">
          <image>
@@ -20,6 +20,6 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Button fx:id="last" layoutX="621.0" layoutY="372.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="75.0" text="last" />
+      <Button fx:id="last" layoutX="621.0" layoutY="372.0" mnemonicParsing="false" onAction="#lastt" prefHeight="39.0" prefWidth="75.0" text="last" />
    </children>
 </AnchorPane>

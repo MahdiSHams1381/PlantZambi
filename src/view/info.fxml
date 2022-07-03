@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="438.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.infoController">
+   <children>
+      <ImageView fitHeight="444.0" fitWidth="781.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../image/0000008155.1920x1080.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="6.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="60.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="75.0" layoutX="109.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="165.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="215.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="269.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="316.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="6.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="69.0" layoutX="60.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/z2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="last" layoutX="154.0" layoutY="405.0" mnemonicParsing="false" onAction="#lastt" opacity="0.62" prefHeight="25.0" prefWidth="147.0" text="last" textFill="#943303" />
+
+   </children>
+</AnchorPane>

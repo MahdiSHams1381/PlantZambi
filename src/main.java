@@ -11,19 +11,9 @@ public class main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-       FXMLLoader login = new FXMLLoader(this.getClass().getResource("view/Login.fxml"));
-       login.load() ;
-        primaryStage.setScene(new Scene(login.getRoot()));
-        primaryStage.show();
-
         FXMLLoader menu = new FXMLLoader(this.getClass().getResource("view/menu.fxml"));
         menu.load() ;
         primaryStage.setScene(new Scene(menu.getRoot()));
-        primaryStage.show();
-
-        FXMLLoader help = new FXMLLoader(this.getClass().getResource("view/help.fxml"));
-        help.load() ;
-        primaryStage.setScene(new Scene(help.getRoot()));
         primaryStage.show();
     }
 }
