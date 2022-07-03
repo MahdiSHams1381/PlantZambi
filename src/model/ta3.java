@@ -4,9 +4,10 @@ import javafx.scene.image.Image;
 
 import java.util.ArrayList;
 
-public class ta1 extends Person {
-    Image image = new Image("@../image/z1.png") ;
-    ta1(ArrayList<Person> person) {
+public class ta3 extends Person {
+    Image image = new Image("@../image/z3.png");
+
+    ta3(ArrayList<Person> person) {
         super(person, 50, 70);
     }
 
@@ -30,5 +31,3 @@ public class ta1 extends Person {
         personFight.setHealth(neww);
     }
 }
-
-
